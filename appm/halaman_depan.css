@@ -1,0 +1,62 @@
+*, body{
+    margin: 0%;
+    padding: 0%;
+}
+.back{
+    background:url(img/pexel.jpg);
+    background-size: 1550px;
+    background-repeat: no-repeat;
+}
+
+nav h1{
+    position: relative;
+    top: 26px;
+    left: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'roboto';
+}
+nav ul{
+    position: relative;
+    top: 1px;
+    margin: 0px;
+    float: right;
+    right: 6%;
+}
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'roboto';
+    font-size: 20px;
+}
+.isi {
+    position: relative;
+    top: 150px;
+    float: left;
+    left: 50px;
+    font-family: 'roboto';
+    color: white;
+    text-shadow:2px 2px #202330;
+}
+.isi h1{
+    margin-bottom: 10px;
+}
+.isi h2{
+    margin-bottom: 20px;
+}
+.isi h3{
+    margin-top: 20px;
+}
+.foto {
+    position: relative;
+    left: 200px;
+    top: 130px;
+}
+.foto img{
+    width: 500px;
+    border-radius: 100px;
+}
